@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "8022855161",
+    "firebase_url": "https://welcome-pet-khackathon-default-rtdb.firebaseio.com",
+    "project_id": "welcome-pet-khackathon",
+    "storage_bucket": "welcome-pet-khackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8022855161:android:a03660a9f1e2a41d9f4128",
+        "android_client_info": {
+          "package_name": "org.taehyeon.welcome_pet_khackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8022855161-numioc76ks6jqgtelf7t8qjke61gicnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsackzZlSPC-fSStlB5EssY1UM5t003oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8022855161-numioc76ks6jqgtelf7t8qjke61gicnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

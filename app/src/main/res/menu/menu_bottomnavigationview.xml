@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/UserinfoItem"
+        android:icon="@drawable/userinfo"
+        android:title="내 정보" />
+
+    <item
+        android:id="@+id/CommunityItem"
+        android:icon="@drawable/community"
+        android:title="게시판" />
+    <item
+        android:id="@+id/HomeItem"
+        android:icon="@drawable/home"
+        android:title="홈"
+        android:checked="true"/>
+
+    <item
+        android:id="@+id/experienceItem"
+        android:icon="@drawable/experience"
+        android:title="AR사전" />
+
+    <item
+        android:id="@+id/ShopItem"
+        android:icon="@drawable/shop"
+        android:title="쇼핑하기" />
+</menu>

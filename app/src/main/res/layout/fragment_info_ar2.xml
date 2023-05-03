@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AR.InfoAr2Fragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9EFFFFFF"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_ar2_1"
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:fontFamily="@font/font_1"
+                android:text="정답입니다!"
+                android:layout_marginTop="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#2A45DD"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/text_ar2_info1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_1"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="호기심 많은 어린 강아지들은 입이 손입니다! \n
+때문에 모든 것을 입으로 탐험해보려고 하고,\n 그러다가 보호자의 손이나 발을 물었을 때
+그 반응이 \n놀이처럼 느껴지면 문제행동을 계속하게 됩니다."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/text_12"
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:fontFamily="@font/font_1"
+                android:text="어떻게 해결하나요?"
+                android:textSize="16sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#51DD2A" />
+
+            <TextView
+                android:id="@+id/text_ar2_info2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/font_1"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="훈련법은 정확하고 교육은 단호하고 \n냉정하게 밀어내는 것입니다. 언제든지 사람 손을\n 물려고 하면 '하지마', '안돼' 라는 것을 \n확실하게 알려주는 것이 필요합니다."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/text_19"
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="입질에 효과적인 장난감"
+                android:textSize="16sp"
+                android:fontFamily="@font/font_1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#DD952A" />
+
+            <LinearLayout
+                android:id="@+id/layout_ar_buy"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/imageView__5"
+                    android:layout_width="43dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/pet_info_img" />
+
+
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView__9"
+                        android:layout_width="213dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="5dp"
+                        android:text=" 반려견 터그놀이 장난감"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/font_1"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView__8"
+                        android:layout_width="203dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:text=" 가격 : 6,400원"
+                        android:fontFamily="@font/font_1"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/font_1"
+                        android:text=" 강아지 반려견 옥수수 치석제거 터그놀이 장난감"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

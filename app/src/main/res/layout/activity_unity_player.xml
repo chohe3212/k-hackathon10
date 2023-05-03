@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/con_layout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="#A3FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#292929"
+            android:fontFamily="@font/font_1"
+            android:text="🚨 AR 체험시 주의점 🚨" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/font_1"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textColor="#454545"
+            android:text="- 평면이 인식되려면 약 5~10초정도 소요됩니다.\n- 평면이 인식된 후, AR 강아지를 위치하고싶은 곳에 한번만 터치하여 생성해주세요!\n(너무 가까운곳에 생성하면 강아지가 거대해지니 적당한 거리에 생성해주세요~😉)" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/ar_question"
+        android:layout_width="268dp"
+        android:layout_height="413dp"
+        android:layout_gravity="center">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text_walk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/font_1"
+        android:layout_marginTop="250dp"
+        android:textColor="#121212"
+        android:text="" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right">
+
+        <ImageView
+            android:id="@+id/test_btn"
+            android:layout_width="64dp"
+            android:layout_height="67dp"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="#009E1B1B"
+            android:enabled="false"
+            android:onClick="OnClick"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/home_ar" />
+        <ImageView
+            android:id="@+id/next_btn"
+            android:layout_width="64dp"
+            android:layout_height="67dp"
+            android:layout_gravity="bottom"
+            android:onClick="True"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/next_ar" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

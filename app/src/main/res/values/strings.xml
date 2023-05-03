@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">어반처</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name" translatable="false">어서와,반려견은 처음이지?</string>
+    <string name="bt" translatable="false">Login</string>
+
+    <string name="game_view_content_description">Game View</string>
+
+    <string-array name="array">
+        <item>1번</item>
+        <item>2번</item>
+        <item>3번</item>
+        <item>4번</item>
+    </string-array>
+</resources>
+

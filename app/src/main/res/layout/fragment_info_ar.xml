@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AR.InfoArFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#9EFFFFFF">
+
+        <TextView
+            android:id="@+id/text_ar_info"
+            android:layout_width="262dp"
+            android:fontFamily="@font/font_1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="반려동물이 입질을 시작하여 당신의 손을 습관적으로 물어요!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/text_ar_info2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="당신은 이 상황에서 어떻게 대처하실건가요?"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/font_1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup_info"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <RadioButton
+                android:id="@+id/alarm_radioButton_info1"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/font_1"
+                android:layout_height="wrap_content"
+                android:text="콧잔등을 때리거나 엉덩이를 때려 따끔하게 혼낸다." />
+
+            <RadioButton
+                android:id="@+id/alarm_radioButton_info2"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/font_1"
+                android:layout_height="wrap_content"
+                android:text="강아지가 살짝 밀릴 정도로 밀쳐내며 단호하게 말한다." />
+
+            <RadioButton
+                android:id="@+id/alarm_radioButton_info3"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/font_1"
+                android:layout_height="wrap_content"
+                android:text="무는 것이 아프지는 않으니 재미있게 계속 놀아준다." />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textview_info_waring"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_1"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#FF0000" />
+
+        <Button
+            android:id="@+id/button_info_select"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_outline"
+            android:text="select"
+            app:backgroundTint="#77A5A5" />
+
+    </LinearLayout>
+
+</FrameLayout>

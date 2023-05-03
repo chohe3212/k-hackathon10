@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.home_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity = "center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/font_outline"
+            android:text=" AR 반려동물 체험하기"
+            android:textColor="#94B49F"
+            android:textSize="30dp"></TextView>
+        <!--        #C8566E81-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="#fff"
+            android:elevation="40dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font_1"
+                android:text="\n  ✔️ 시작하기 버튼을 누르면 설문조사 화면이 나옵니다.\n
+                \n  ✔️ 설문조사를 통해 반려견 종추천 결과와 사전체험이 달라집니다.  \n\n  ✔️ 설문조사는 신중하게
+해주시길 바랍니다.\n\n  ✔️ 알람은 앱이 켜져있으면 울리지 않습니다. \n\n  ✔️ 체험이 끝난 후에도 설문조사를 하시면 가상 반려견 체험을 다시 하실 수 있습니다. \n"
+                android:textSize="16sp"></TextView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/font_1"
+            android:layout_gravity="center"
+            android:text="지금부터 당신은 새로운 가족 구성원 반려견과 함께 삽니다."
+            >
+
+        </TextView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/alram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/font_1"
+            android:background="@drawable/login_button_bk"
+            android:text="시작하기"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
